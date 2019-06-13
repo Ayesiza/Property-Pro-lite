@@ -1,0 +1,43 @@
+h1{
+    color:purple;
+    font-size: 50px;
+}
+h3{
+    color: purple;
+}
+body{
+    background-image: url("house1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container{
+    width:40%;
+    margin-left:25%;
+    background: #ffffff61;
+    border:solid 2px #ffffffb0;
+    padding:20px;
+    border-radius: 10px;
+}
+.formInput{
+    display: block;
+    width:70%;
+    margin:10px;
+    padding: 12px 25px;
+    border-radius: 10px;
+    border:solid 2px grey;
+    background: #ffffff87;
+}
+
+.button{
+    background: gainsboro;
+    color:purple;
+    width: 100px;
+    padding: 10px 20px;
+    margin: 50px;
+    margin-top: 1px;
+    border-radius:10px;
+
+}
+
+
