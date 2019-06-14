@@ -7,7 +7,7 @@ h3{
 
 }
 body{
-    background-image: url(house1.jpg);
+    background-color:plum;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -72,7 +72,32 @@ ul {
   
   .active {
     background-color: purple;
-
   }
 
+  .card {
+    max-width: 300px;
+    background-color: rgb(136, 128, 81);
+
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color:purple;
+    font-size: 16px;
+  }
+  
+  .card button {
+    border: none;
+    padding: 12px;
+    color:yellowgreen;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  
 
