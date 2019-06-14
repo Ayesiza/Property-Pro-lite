@@ -4,9 +4,10 @@ h1{
 }
 h3{
     color: purple;
+
 }
 body{
-    background-image: url("house1.jpg");
+    background-image: url(house1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -15,7 +16,7 @@ body{
     width:40%;
     margin-left:25%;
     background: #ffffff61;
-    border:solid 2px #ffffffb0;
+    border:solid 2px rgb(185, 167, 185);
     padding:20px;
     border-radius: 10px;
 }
@@ -25,7 +26,7 @@ body{
     margin:10px;
     padding: 12px 25px;
     border-radius: 10px;
-    border:solid 2px grey;
+    border:solid 2px plum;
     background: #ffffff87;
 }
 
@@ -37,6 +38,41 @@ body{
     margin: 50px;
     margin-top: 1px;
     border-radius:10px;
+    border:solid 2px plum;
 }
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(9, 26, 4);
+    margin-right: 30px
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:rgb(216, 99, 240);
+  }
+  
+  .active {
+    background-color: purple;
+
+  }
 
 
