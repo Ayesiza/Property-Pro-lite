@@ -7,7 +7,7 @@ h3{
 
 }
 body{
-    background-image: url(house1.jpg);
+    background-color:rgb(87, 60, 87);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -98,6 +98,33 @@ ul {
     width: 100%;
     font-size: 18px;
   }
+
+  .card1 {
+    box-shadow: 0 4px 8px;
+    width: 300px;
+    margin:30px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color:blue;
+    font-size: 18px;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px;
+    width: 300px;
+    margin:30px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color:blue;
+    font-size: 18px;
+  }
+  
+  
   
 
 
