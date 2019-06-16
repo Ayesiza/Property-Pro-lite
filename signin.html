@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +8,35 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>SignUp</title>
 </head>
+
 <body>
-    <h1>PROPERTY PRO LITE</h1>
-    <form class="container">
-            <h3>Signin</h3>
-            <input class="formInput" type="email" placeholder="Email">
-            <input class="formInput" type="password" placeholder="Enter Password">
-            <br>
-            <a class="button" type="button" href="post-advert.html">signin</a>
-            
-    </form> 
-    
+    <ul class="nav-bar">
+        <li><a class="active logo" href="index.html">PROPERTY PRO LITE</a></li>
+        <li><a href="index.html">Home</a></li>
+        <!-- start right nav bar -->
+        <div class="right-nav">
+            <li><a href="signup.html">Signup</a></li>
+            <li><a href="signin.html">Signin</a></li>
+        </div>
+        <!-- //right nav bar -->
+    </ul>
+    <div class="page-container">
+        <div class="">
+            <img src="./images/house6.jpeg" height="500" alt="img">
+        </div>
+        <div class="form">
+            <form action="view-all.html">
+                <h3>User Signin</h3>
+                <input class="formInput" type="email" placeholder="Email" required>
+                <input class="formInput" type="password" placeholder="Enter Password" required>
+                <br>
+                <button class="button" type="submit">signin</button>
+
+            </form>
+            <p>agent signin <a href="agent-signin.html">Here</a></p>
+        </div>
+    </div>
+
 </body>
+
 </html>
