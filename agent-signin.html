@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
-    <title>navigation bar</title>
+    <title>SignUp</title>
 </head>
-
 <body>
+    <h1>PROPERTY PRO LITE</h1>
     <ul>
         <li><a class="active" href="#PROPERTY PRO LITE">PROPERTY PRO LITE</a></li>
         <li><a href="index.html">Home</a></li>
@@ -21,22 +21,15 @@
         <li style="float:right"><a href="index.html">Signup</a></li>
         <li style="float:right"><a href="signin.html">Signin</a></li>
     </ul>
-    <form class="container" action="">
-        <h3>post-advert</h3>
-        <input class="formInput" type="text" placeholder="Owner">
-        <input class="formInput" type="text" placeholder="status">
-        <input class="formInput" type="text" placeholder="price">
-        <input class="formInput" type="text" placeholder="state">
-        <input class="formInput" type="text" placeholder="city">
-        <input class="formInput" type="text" placeholder="address">
-        <input class="formInput" type="text" placeholder="type">
-        <input class="formInput" type="text" placeholder="created On">
-        <input class="formInput" type="file">
-
-        <br>
-        <a class="button" type="button" href="product.html">post advert</a>
-    </form>
-
+    <div class="page-container">
+        <form class="container" action="post-advert.html">
+            <h3>Agent Signin</h3>
+            <input class="formInput" type="email" placeholder="Email" required>
+            <input class="formInput" type="password" placeholder="Enter Password" required>
+            <br>
+            <button class="button" type="submit">signin</button>
+        </form>
+    </div>
 </body>
 
 </html>
