@@ -130,7 +130,11 @@ li a {
   font-family: arial;
   border: solid 1px gainsboro;
 }
-
+.nav-select {
+  margin: 8px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
 .card-container {
   height: auto;
   padding-bottom: 20px;
