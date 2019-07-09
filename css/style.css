@@ -210,3 +210,17 @@ li a {
   margin-top: 10px;
   flex-wrap: wrap;
 }
+
+.product-card{
+  display: flex;
+  margin-top: 5%;
+}
+.product-card img{
+  width:50%
+}
+
+.product-card .card-container{
+  width: 50%;
+  background: gainsboro;
+  text-align: center;
+}
