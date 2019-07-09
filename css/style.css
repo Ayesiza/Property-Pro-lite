@@ -11,20 +11,13 @@ body {
   margin: 0;
 }
 
-h1 {
-  color: rgb(240, 9, 240);
-  font-size: 50px;
-}
-
 h3 {
   color: grey;
+  text-align: center;
 }
-
-a {
+a{
   text-decoration: none;
-  color: #e5e818;
 }
-
 .page-container {
   display: flex;
   width: 100%;
@@ -54,7 +47,6 @@ a {
 }
 
 .landing {
-  background: url(./home.jpg);
   width: 100%;
   height: 100%;
   margin-left: -2rem;
@@ -122,6 +114,7 @@ li a {
 .card {
   max-width: 300px;
   margin: 10px;
+  background-color: grey;
   text-align: center;
   font-family: arial;
   border: solid 1px gainsboro;
@@ -156,7 +149,7 @@ li a {
   border-radius: 0;
   width: 100%;
   padding: 5px 0;
-  color: goldenrod;
+  color: rgb(114, 103, 79);
   background-color: black;
   text-align: center;
   cursor: pointer;
@@ -170,7 +163,7 @@ li a {
 .formInput {
   width: 100%;
   padding: 12px 20px;
-  margin: 8px 0;
+  margin: 3px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -184,23 +177,36 @@ li a {
   margin-top: 50px;
 }
 
-
 /* Add styles to the form container */
 
 .container {
-  position: absolute;
-  right: 0;
   margin: 20px;
   max-width: 300px;
   padding: 16px;
   background-color: white;
-  top: 10px;
-  margin-top: 150px;
+  margin-top: 50px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .hide-overflow {
   overflow: hidden;
 }
-
-@media (max-width: 768px) {}
+.heading-text {
+  position: absolute;
+  z-index: 1030;
+  margin-top: 150px;
+  margin-left: 50px
+}
+.container-hero{
+  display: flex;
+  height: 250px;
+  background: blueviolet;
+  justify-content: center;
+}
+.land-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
