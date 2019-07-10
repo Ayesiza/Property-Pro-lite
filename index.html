@@ -9,21 +9,104 @@
     <title>PROPERTY PRO LITE</title>
 </head>
 
-<body class="bg-img">
-    <div class="landing"></div>
-    <ul class="nav-bar">
-        <li class="nav-logo"><a class="active logo" href="index.html">PROPERTY PRO LITE</a></li>
-        <li><a href="index.html">Home</a></li>
-        <!-- start right nav bar -->
-        <div class="right-nav">
-            <li><a href="signup.html">SignUp</a></li>
-            <li><a href="signin.html">Signin</a></li>
+<body>
+    <div class="container-hero">
+        <h2 class="heading-text">Property Pro Lite is a platform where people can create and/or search properties for sale or rent.</h2>
+      </div>
+        <ul class="nav-bar">
+            <li class="nav-logo"><a class="active logo" href="index.html">PROPERTY PRO LITE</a></li>
+            <!-- start right nav bar -->
+            <li><a href="index.html">Home</a></li>
+            <div class="right-nav">
+                <li>
+                    <select onchange="window.location.href=this.value;" class="nav-select">
+                        <option value="#" selected>Select type</option>
+                        <option value="property-type.html">3bedrooms</option>
+                        <option value="property-type.html">5bedrooms</option>
+                        <option value="property-type.html">Mini-flat</option>
+                        <option value="view-all.html">view-all</option>
+                        <option value="property-type.html">others</option>
+                    </select>
+                </li>
+                
+            </div>
+            <!-- //right nav bar -->
+        </ul>
+        <div class="land-wrapper">
+            <div class="card">
+                <img src="./images/house6.jpeg" alt="three bedroom">
+                <div class="card-container">
+                    <h4>3 Bedroom house</h4>
+                    <p class="price">$679.99</p>
+                    <p class="city">City: kampala</p>
+                    <a class="button" type="button" href="signin.html">view details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/flat house.jpg" alt="flat">
+                <div class="card-container">
+                    <h4>min-flat</h4>
+                    <p class="price">$1279.99</p>
+                    <p class="city">City: kampala</p>
+                    <a class="button" type="button" href="signin.html">view details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/hd-house1.jpg" alt="4 bedroom">
+                <div class="card-container">
+                    <h4>4 Bedroom house</h4>
+                    <p class="price">$879.99</p>
+                    <p class="city">City: kampala</p>
+                    <a class="button" type="button" href="signin.html">view details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/hd-house2.jpg" alt="6bedroom">
+                <div class="card-container">
+                    <h4> 6 Bedroom house</h4>
+                    <p class="price">$679.99</p>
+                    <p class="city">City: kampala</p>
+                    <a class="button" type="button" href="signin.html">view details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/house 9.jpg" alt="2 bedroom">
+                <div class="card-container">
+                    <h4> 2 Bedroom house</h4>
+                    <p class="price">$579.57</p>
+                    <p class="city">City: Nirobi</p>
+                    <a class="button" type="button" href="signin.html">view details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/flat house.jpg" alt="mini-flat">
+                <div class="card-container">
+                    <h4>mini-flat</h4>
+                    <p class="price">$3279.99</p>
+                    <p class="city">City: Nirobi</p>
+                    <a class="button" type="button" href="signin.html">view details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/house7.jpg" alt="4 bedroom">
+                <div class="card-container">
+                    <h4>4Bedroom-house</h4>
+                    <p class="price">$4475.99</p>
+                    <p class="city">City: kampala</p>
+                    <a class="button" type="button" href="signin.html">view details</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/house5.jpg" alt="Mini-flat">
+                <div class="card-container">
+                    <h4>mini-flat</h4>
+                    <p class="price">$21479</p>
+                    <p class="city">City: kigali</p>
+                    <a class="button" type="button" href="signin.html">view details</a>
+                </div>
+            </div>
         </div>
-        <!-- //right nav bar -->
-    </ul>
-    <div class="hero">
-        <h1>Property Pro Lite is a platform where people can create and/or search properties for sale or rent.</h1>
-    </div>
-</body>
+    </body>
+    
 
 </html>
